@@ -1,6 +1,6 @@
 # Selbst erstellte Variablen
 ## Konsum-bezogene Features
-- Paycheck Effect: Bezieht sich auf den Effekt, dass Konsumverhalten nach Gehaltszahlungen ansteigt, wenn 90% der Firmen den Lohn in einem bestimmten Zeitraum auszahlen.
+- Paycheck Effect: Bezieht sich auf den Effekt, dass Konsumverhalten nach Gehaltszahlungen ansteigt, wenn 90% der Firmen den Lohn in einem bestimmten Zeitraum auszahlen (27. eines Monats bis 5. des Folgemonats).
 
 - Inflation Sensitivity: Klassifiziert Produkte je nach ihrer Empfindlichkeit gegenüber Inflation (hoch, mittel, niedrig). Produkte wie Brot sind stärker betroffen als z. B. Croissants.
 
