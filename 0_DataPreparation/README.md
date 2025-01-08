@@ -1,21 +1,21 @@
-# Data Preparation
+# Selbst erstellte Variablen
 ## Konsum-bezogene Features
 - Paycheck Effect: Bezieht sich auf den Effekt, dass Konsumverhalten nach Gehaltszahlungen ansteigt, wenn 90% der Firmen den Lohn in einem bestimmten Zeitraum auszahlen.
 
 - Inflation Sensitivity: Klassifiziert Produkte je nach ihrer Empfindlichkeit gegenüber Inflation (hoch, mittel, niedrig). Produkte wie Brot sind stärker betroffen als z. B. Croissants.
 
-- Inflation Kategorisierung: Bewertet die Inflation im Vergleich zum Vorjahr/Vormonat als negativ, neutral oder positiv. Eine positive Kategorisierung deutet auf eine steigende Inflation hin.
+- Inflation Kategorisierung: Bewertet die Inflation im Vergleich zum Vorjahr als negativ, neutral oder positiv. Eine positive Kategorisierung deutet auf eine steigende Inflation hin.
 
 ## Tages-bezogene Features
-- Feiertag: Kennzeichnet offizielle Feiertage, an denen das Konsumverhalten typischerweise steigt.
+- Feiertag: Kennzeichnet offizielle Feiertage.
 
-- Ferien: Markiert Ferienzeiten in S.H., in denen mehr Ausgaben für Freizeit und Reisen zu erwarten sind.
+- Ferien: Markiert Ferienzeiten in S.H., in denen ggfs. mehr Ausgaben für Freizeit und Reisen zu erwarten sind. Unsere Data exploration zeigte, dass der Umsatz in den Sommermonaten höher war, als in anderen Monaten.
 
-- Special Events: Bezieht sich auf besondere Veranstaltungen (z. B. Kieler Triathlon, KielLauf, Fußball), die das Konsumverhalten beeinflussen können.
+- Special Events: Variablen, die besondere Veranstaltungen (z. B. Kieler Triathlon, KielLauf, Fußball) kennzeichnen, die das Konsumverhalten beeinflussen können.
 
-- Wochenende: Kennzeichnet Wochenendtage, die typischerweise mit höherem Konsum von Freizeitaktivitäten verbunden sind.
+- Wochenende: Kennzeichnet Wochenendtage (Samstag und Sonntag), die typischerweise mit höherem Konsum von Freizeitaktivitäten verbunden sind. Zudem zeigte unsere Data exploration, dass der Umsatz am Samstag und Sonntag höher war, als an anderen Wochentagen.
 
 ## Wetter-bezogene Features
-- Gefühlte Temperatur: Die Temperatur, die ein Mensch unter Berücksichtigung von Wind und Luftfeuchtigkeit empfindet, und deren Einfluss auf das Konsumverhalten (z. B. Erfrischungsgetränke bei Hitze).
+- Jahreszeit: Frühling (März, April, Mai) - Sommer (Juni, Juli, August) - Herbst (September, Oktober, November) - Winter (Dezember, Januar, Februar); unesre Data exploration zeigte, dass der Umsatz in den Sommermonaten höher war, als in den anderen Monaten. Hier gibt es eine Korrelation mit "Ferien"
 
-- Jahreszeit: Beeinflusst das Konsumverhalten je nach Saison, z. B. höhere Ausgaben für Outdoor-Aktivitäten im Sommer oder für Geschenke im Winter.
+- Gefühlte Temperatur: Jahreszeit-abhängige Einordnung der jeweiligen Tagestemperatur (Frühling: kalt <= 10, mild <= 20, darüber: warm; Sommer: kalt <= 15, mild <= 25, darüber: warm; Herbst: kalt <= 10, mild <= 20, darüber: warm; Winter: kalt <= 0, mild <= 10, darüber: warm).
