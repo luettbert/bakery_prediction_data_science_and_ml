@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-https://github.com/your_username/your_project_name
+https://github.com/luettbert/bakery_prediction_data_science_and_ml
 
 ## Description
 
@@ -14,24 +14,24 @@ Regression
 
 ### Results Summary
 
--   **Best Model:** [Name of the best-performing model]
+-   **Best Model:** [Sequential model]
 -   **Evaluation Metric:** MAPE
 -   **Result by Category** (Identifier):
-    -   **Bread** (1): [XX]%
-    -   **Rolls** (2): [XX]%
-    -   **Croissant** (3): [XX]%
-    -   **Confectionery** (4): [XX]%
-    -   **Cake** (5): [XX]%
-    -   **Seasonal Bread** (6): [XX]%
+    -   **Bread** (1): [24.71]%
+    -   **Rolls** (2): [13.53]%
+    -   **Croissant** (3): [21.48]%
+    -   **Confectionery** (4): [26.78]%
+    -   **Cake** (5): [19.63]%
+    -   **Seasonal Bread** (6): [39.56]%
 
 ## Documentation
 
-1.  [**Data Import and Preparation**](0_DataPreparation/)
-3.  [**Dataset Characteristics (Barcharts)**](1_DatasetCharacteristics/)
-4.  [**Baseline Model**](2_BaselineModel/)
-5.  [**Model Definition and Evaluation**](3_Model/)
+1.  [**Data Import and Preparation**](0_DataPreparation/README.md)
+3.  [**Dataset Characteristics (Barcharts)**](1_DatasetCharacteristics/README.md)
+4.  [**Baseline Model**](2_BaselineModel/README.md)
+5.  [**Model Definition and Evaluation**](3_Model/README.md)
 6.  [**Presentation**](4_Presentation/README.md)
 
 ## Cover Image
 
-![](CoverImage/cover_image.png)
+![](CoverImage/image.png)
